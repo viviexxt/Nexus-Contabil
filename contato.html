@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color:  #6a8794;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .contact-container {
+            background-color: #ffffff;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            max-width: 600px;
+            text-align: center;
+        }
+
+        .contact-container h1 {
+            font-size: 32px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .contact-container p {
+            font-size: 18px;
+            color: #555;
+            margin-bottom: 30px;
+        }
+
+        .icons {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .icons img {
+            width: 50px;
+            height: 50px;
+            cursor: pointer;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .icons img:hover {
+            transform: scale(1.1);
+        }
+
+        @media (max-width: 768px) {
+            .contact-container {
+                padding: 30px;
+                width: 90%;
+            }
+
+            .icons img {
+                width: 45px;
+                height: 45px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .contact-container {
+                padding: 20px;
+                width: 100%;
+            }
+
+            .icons img {
+                width: 40px;
+                height: 40px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="contact-container">
+    <h1>Entre em Contato</h1>
+    <p>Fique à vontade para entrar em contato conosco pelas redes sociais ou por e-mail!</p>
+    
+    <div class="icons">
+        <a href="mailto:seuemail@dominio.com" target="_blank">
+            <img src="email.jpg" alt="E-mail">
+        </a>
+        <a href="https://www.instagram.com/seuperfil/" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/9/95/Instagram_logo_2022.svg" alt="Instagram">
+        </a>
+        <a href="https://wa.me/seunumerodetelefone" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+        </a>
+        <a href="https://www.tiktok.com/@seuperfil" target="_blank">
+            <img src="download.png" alt="TikTok">
+        </a>
+    </div>
+</div>
+
+</body>
+</html>

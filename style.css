@@ -1,0 +1,137 @@
+html {                                  /* Seleciona o elemento <html> da página */
+    scroll-behavior: smooth;            /* Define a rolagem suave ao navegar entre âncoras */
+    font-family: Arial, Helvetica, sans-serif; /* Define a fonte padrão da página */
+}
+
+body {                                   /* Seleciona o elemento <body> da página */
+    background-color: #dbd7d8 ; /* Define a cor de fundo com um tom azul escuro e transparência */
+}
+
+.container {
+    max-width: 3000px; /* Limita a largura máxima */
+    margin: 0 auto; /* Centraliza o container */
+    padding: 20px; /* Adiciona preenchimento interno */
+}
+  
+
+
+h1 {                                    /* Seleciona elementos <h1> da página */
+    color: rgb(0, 0, 0);          /* Define a cor do texto como branco */
+    text-align: center;                  /* Centraliza o texto */
+    padding-top: 6%;                     /* Adiciona um espaço de 3% na parte superior do elemento */
+}
+
+.nav {                                  /* Seleciona elementos com a classe "nav" */
+    background-color:#b1c0c7  ;              /* Define a cor de fundo como cinza */
+    list-style-type: none;               /* Remove os marcadores da lista */
+    text-align: center;                  /* Centraliza o conteúdo da lista */
+    height: 60px;                        /* Define a altura da barra de navegação como 60 pixels */
+    display: flex;                       /* Usa layout flexível para os itens dentro da nav */
+    align-items: center;                 /* Alinha os itens verticalmente ao centro */
+    justify-content: center;             /* Centraliza os itens horizontalmente */
+    margin: 0;                           /* Remove a margem padrão */
+    padding: 0;                          /* Remove o preenchimento padrão */
+    margin-bottom: 3%;                   /* Adiciona um espaço de 3% na parte inferior da nav */
+}
+
+.nav li {                               /* Seleciona os itens da lista dentro da nav */
+    display: inline-block;             /* Exibe os itens da lista em linha, um ao lado do outro */
+    font-size: 20px;                     /* Define o tamanho da fonte como 20 pixels */
+    padding: 2px;                        /* Adiciona um preenchimento de 2 pixels ao redor de cada item */
+}
+
+
+li a {                                 /* Seleciona links dentro de itens de lista */
+    display: inline-block;              /* Exibe os links em linha, permitindo preenchimento e dimensões */
+    color: #ffffff;                      /* Define a cor do texto como branco */
+    text-align: center;                /* Centraliza o texto dentro do link */
+    padding: 10px 20px;                /* Adiciona preenchimento de 10 pixels vertical e 16 pixels horizontal */
+    text-decoration: none;              /* Remove o sublinhado padrão dos links */
+}
+
+li a:hover {                          /* Estilo aplicado quando o mouse está sobre o link */
+    background-color: #a2b4bc;            /* Muda a cor de fundo para um cinza escuro */
+}
+
+.active {                             /* Classe para indicar o link ativo */
+    background-color: #6a8794 ;             /* Define a cor de fundo como vermelho para o link ativo */
+}
+
+#section1 {                           /* Seleciona a seção com o ID "section1" */
+    display: flex;                     /* Define o layout como flexível */
+    flex-direction: column;            /* Organiza os itens em uma coluna */
+    height: 800px;                     /* Define a altura da seção como 800 pixels */
+    width:4000px;                     /* Define a largura da seção como 1080 pixels */
+    background: linear-gradient(180deg, #b1c0c7 0%, #b1c0c7 36%, #b1c0c7 100%); /* Aplica um gradiente de fundo vertical */
+    border-radius: 20px;               /* Arredonda os cantos da seção com um raio de 20 pixels */
+    margin-right: auto;                /* Centraliza a seção horizontalmente (margem direita automática) */
+    margin-left: auto;                 /* Centraliza a seção horizontalmente (margem esquerda automática) */
+    text-align: center;                /* Centraliza o texto dentro da seção */
+}
+
+
+
+#section2 {                           /* Seleciona a seção com o ID "section2" */
+    height: 800px;                    /* Define a altura da seção como 800 pixels */
+    width: 3000px;                    /* Define a largura da seção como 1080 pixels */
+    background: linear-gradient(360deg, #b1c0c7 0%, #b1c0c7 36%, #b1c0c7 100%); /* Aplica um gradiente de fundo vertical */
+    border-radius: 20px;              /* Arredonda os cantos da seção com um raio de 20 pixels */
+    margin-right: auto;               /* Centraliza a seção horizontalmente (margem direita automática) */
+    margin-left: auto;                /* Centraliza a seção horizontalmente (margem esquerda automática) */
+    text-align: center;               /* Centraliza o texto dentro da seção */
+}
+
+#section3 {                           /* Seleciona a seção com o ID "section3" */
+    height: 800px;                    /* Define a altura da seção como 800 pixels */
+    width: 3000px;                    /* Define a largura da seção como 1080 pixels */
+    background: linear-gradient(180deg, #b1c0c7 0%, #b1c0c7 36%, #b1c0c7 100%); /* Aplica um gradiente de fundo vertical */
+    border-radius: 20px;              /* Arredonda os cantos da seção com um raio de 20 pixels */
+    margin-right: auto;               /* Centraliza a seção horizontalmente (margem direita automática) */
+    margin-left: auto;                /* Centraliza a seção horizontalmente (margem esquerda automática) */
+    text-align: center;               /* Centraliza o texto dentro da seção */
+}
+
+#section4 {                           /* Seleciona a seção com o ID "section4" */
+    height: 800px;                    /* Define a altura da seção como 800 pixels */
+    width: 3000px;                    /* Define a largura da seção como 1080 pixels */
+    background: linear-gradient(180deg, #b1c0c7 0%, #b1c0c7 36%, #b1c0c7 100%); /* Aplica um gradiente de fundo vertical */
+    border-radius: 20px;              /* Arredonda os cantos da seção com um raio de 20 pixels */
+    margin-right: auto;               /* Centraliza a seção horizontalmente (margem direita automática) */
+    margin-left: auto;                /* Centraliza a seção horizontalmente (margem esquerda automática) */
+    text-align: center;               /* Centraliza o texto dentro da seção */
+}
+
+
+#section5 {                           /* Seleciona a seção com o ID "section5" */
+    height: 800px;                    /* Define a altura da seção como 800 pixels */
+    width: 3000px;                    /* Define a largura da seção como 1080 pixels */
+    background: linear-gradient(180deg, #b1c0c7 0%, #b1c0c7 36%, #b1c0c7 100%); /* Aplica um gradiente de fundo vertical */
+    border-radius: 20px;              /* Arredonda os cantos da seção com um raio de 20 pixels */
+    margin-right: auto;               /* Centraliza a seção horizontalmente (margem direita automática) */
+    margin-left: auto;                /* Centraliza a seção horizontalmente (margem esquerda automática) */
+    text-align: center;               /* Centraliza o texto dentro da seção */
+}
+
+a {                                   /* Seleciona todos os links (<a>) da página */
+    align-self: center;               /* Alinha o link ao centro dentro de seu contêiner flexível (se aplicável) */
+    text-decoration: none;             /* Remove o sublinhado padrão dos links */
+    background-color: rgba(255, 255, 255, 0.7); /* Define a cor de fundo com um roxo semitransparente */
+    color: whitesmoke;                /* Define a cor do texto como um branco esmaecido */
+    text-align: center;               /* Centraliza o texto dentro do link */
+    border-radius: 10px;              /* Arredonda os cantos do link com um raio de 10 pixels */
+    padding: 7px;                     /* Adiciona preenchimento de 7 pixels ao redor do link */
+}
+
+a:hover {                            /* Estilo aplicado quando o mouse está sobre o link */
+    background-color: rgb(255, 255, 255); /* Muda a cor de fundo para um roxo mais escuro e opaco */
+}
+
+h2 {                                  /* Seleciona elementos <h2> da página */
+    padding-top: 6%;                  /* Adiciona um espaço de 6% na parte superior do título */
+    margin-bottom: 5%;                /* Adiciona um espaço de 5% na parte inferior do título */
+    color: rgb(0, 0, 0);           /* Define a cor do texto como um cinza escuro */
+}
+
+.return {                             /* Classe para elementos com a classe "return" */
+    justify-content: flex-end;        /* Alinha o conteúdo ao final do contêiner flexível */
+}
