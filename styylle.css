@@ -1,0 +1,71 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo para o body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Estilo para o cabeçalho com a imagem de fundo */
+.imagem-gradiente-horizontal {
+    background: linear-gradient(to right, #37464d, #b1c0c7);
+    color: #fff;
+    padding: 40px;
+    text-align: center;
+}
+
+.imagem-gradiente-horizontal h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.imagem-gradiente-horizontal h2 {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+/* Estilo para a seção de texto */
+.texto {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.texto h1 {
+    font-size: 2rem;
+    color: #1e1e1e;
+    margin-bottom: 15px;
+}
+
+.texto h2 {
+    font-size: 1.2rem;
+    color: #555;
+    font-weight: 300;
+}
+
+/* Estilo para o rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 0.9rem;
+}
+
+/* Estilo para o container no rodapé */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}

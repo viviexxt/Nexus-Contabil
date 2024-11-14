@@ -8,7 +8,7 @@ body {                                   /* Seleciona o elemento <body> da pági
 }
 
 .container {
-    max-width: 3000px; /* Limita a largura máxima */
+    max-width: 2000px; /* Limita a largura máxima */
     margin: 0 auto; /* Centraliza o container */
     padding: 20px; /* Adiciona preenchimento interno */
 }
